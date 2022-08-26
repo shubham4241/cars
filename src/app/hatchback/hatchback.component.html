@@ -6,7 +6,7 @@
             <div class="card-body">
               <h5 class="card-title">{{c.model}}</h5>
               <h6>${{c.price}}</h6>
-              <a routerLink= "/sedan/car" class="btn btn-primary">Go somewhere</a>
+              <a routerLink= "/hatchback/car" [queryParams]="c" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
       </div>      
